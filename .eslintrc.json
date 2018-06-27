@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "jest"
+  ],
+  "env": {
+    "jest/globals": true
+  },
+  "globals": {
+    "CustomEvent": true,
+    "document": true
+  }
+}
