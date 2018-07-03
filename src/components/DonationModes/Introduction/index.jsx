@@ -19,7 +19,7 @@ const styles = {
 function DonationModes({ onModeClick, classes }) {
   return (
     <Fragment>
-      <Typography variant="display2" align="center" gutterBottom>
+      <Typography variant="display1" align="center" gutterBottom>
         Otras formas de aportar
       </Typography>
       <div className={classes.wrapper}>
