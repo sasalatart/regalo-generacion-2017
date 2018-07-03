@@ -20,7 +20,7 @@ function AboutUs({ classes }) {
   return (
     <Fragment>
       <Typography variant="display1" align="center" gutterBottom>
-        ¿Quiénes Somos?
+        ¿Quiénes somos?
       </Typography>
 
       <Typography variant="subheading" align="center" className={classes.body} gutterBottom>
