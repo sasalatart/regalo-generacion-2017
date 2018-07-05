@@ -17,7 +17,7 @@ const styles = {
     padding: '0',
     margin: '0',
     border: '0',
-    transition: 'background-image 0.2s ease-in-out',
+    transition: 'background-image 0.5s ease-in-out',
     overflow: 'hidden',
     '&:before': {
       background: 'rgba(0, 0, 0, 0.5)',
