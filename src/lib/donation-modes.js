@@ -8,7 +8,7 @@ const teachingContents = {
     A través de GOing podrás donar tus horas para hacer tutorías de un ramo desde el 2018-2 y ayudar a cubrir esta brecha.
   `,
   callToAction: {
-    title: 'Formulario de inscripción',
+    title: 'Quiero inscribirme',
     link: 'https://goo.gl/forms/v8C57ZpADald5f3w2',
   },
   expansions: [{
@@ -49,7 +49,7 @@ const studyMateriaContents = {
     Esta opción busca apoyar con material de estudio -que probablemente ya no usas- a los estudiantes de T+I para que siempre cuenten con lo necesario y así aportar a disminuir la brecha académica de los primeros años.
   `,
   callToAction: {
-    title: 'Formulario de inscripción',
+    title: 'Quiero inscribirme',
     link: 'https://goo.gl/forms/awrxrPqjYJBwqRre2',
   },
   expansions: [{

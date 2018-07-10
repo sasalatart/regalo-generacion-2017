@@ -7,7 +7,7 @@ export const mentoringContents = {
     Participa en reuniones con estudiantes y tómate un café para conversar respecto a la carrera, experiencias extracurriculares y/o, o decisiones profesionales.
   `,
   callToAction: {
-    title: 'Formulario de inscripción',
+    title: 'Quiero inscribirme',
     link: 'https://goo.gl/forms/w1wHTfHNZLHSvaok1',
   },
   expansions: [{

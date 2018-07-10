@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import withStyles from '@material-ui/core/styles/withStyles';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import MentoringDialog from './Dialog';
+import DonationDialog from './DonationDialog';
+import { mentoringContents } from '../lib/mentoring';
 
 const styles = theme => ({
   body: theme.baseFont,
@@ -60,7 +61,11 @@ class Mentoring extends Component {
           </Button>
         </div>
 
-        <MentoringDialog open={this.state.modalOpen} onClose={this.handleCloseMoreInfo} />
+        <DonationDialog
+          content={mentoringContents}
+          open={this.state.modalOpen}
+          onClose={this.handleCloseMoreInfo}
+        />
       </Fragment>
     );
   }
