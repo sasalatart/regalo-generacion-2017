@@ -11,8 +11,8 @@ import Divider from '@material-ui/core/Divider';
 
 const styles = theme => ({
   card: {
-    maxWidth: 345,
-    margin: '15px',
+    maxWidth: 350,
+    margin: '10px',
   },
   media: theme.media,
   divider: {
@@ -40,7 +40,7 @@ function ModeCard({
     <Card className={classes.card}>
       <CardMedia image={image} className={classes.media} />
       <CardContent>
-        <Typography variant="headline" align="center">
+        <Typography variant="title" align="center">
           {headline}
         </Typography>
         <Typography variant="subheading" align="center">

@@ -1,22 +1,22 @@
 import dedent from 'dedent';
 
 const teachingContents = {
-  title: 'TUTORÍAS ACADÉMICAS',
+  title: 'GOing',
   description: dedent`
-    En los primeros años de carrera, los estudiantes de T+I requieren apoyo para nivelarse. La demanda por apoyo académico es muy alta. Las ayudantías tradicionales y la Sala de Ayudantes cumplen un rol fundamental, pero son insuficientes.
+    En los primeros años de carrera, algunos estudiantes requieren apoyo académico adicional. La demanda por apoyo académico es muy alta. Las ayudantías tradicionales y la Sala de Ayudantes cumplen un rol fundamental, pero son insuficientes.
 
-    A través de un sistema de tutorías, podrás donar tus horas para hacer tutorías de un ramo desde el 1-2018 y ayudar a cubrir esta brecha.
+    A través de GOing podrás donar tus horas para hacer tutorías de un ramo desde el 2018-2 y ayudar a cubrir esta brecha.
   `,
   callToAction: {
     title: 'Formulario de inscripción',
-    link: 'https://goo.gl/forms/HTapCs45z96WLIus1',
+    link: 'https://goo.gl/forms/v8C57ZpADald5f3w2',
   },
   expansions: [{
     header: '¿Cómo funciona?',
     content: dedent`
-      * Te inscribes y declaras los ramos de ciencias básicas en los que eres competente y las horas que estás dispuesto a donar el primer semestre del 2019.
+      * Te inscribes y declaras los ramos de ciencias básicas en los que eres competente y las horas que estás dispuesto a donar el segundo semestre del 2018.
 
-      * Durante el primer semestre del 2019, deberás especificar tu disponibilidad horaria calendarizada, y los estudiantes de T+I se inscribirán en una lista de espera según la disponibilidad horaria de todos los tutores.
+      * Durante el segundo semestre del 2018 deberás especificar tu disponibilidad horaria calendarizada, y los estudiantes se inscribirán en una lista de espera según la disponibilidad horaria de todos los tutores.
 
       * Con esta información, se hará un “match” para coordinar la reunión, poniendo en contacto al estudiante con el ex-alumno o ex-alumna.
     `,
@@ -26,13 +26,17 @@ const teachingContents = {
       En el contexto del Regalo de Generación de los titulados de la Escuela de Ingeniería UC el año 2016, surge la idea de diversificar los mecanismos de donación.
 
       > Según una encuesta oficial realizada el año 2017 a los estudiantes de Talento + Inclusión de la Escuela de Ingeniería, un 83% puso nota 5 o superior (rango de 1 a 7) a la iniciativa de que los egresados entreguen apoyo académico a los alumnos a través de tutorías académicas.
+
+      Durante el último tiempo esta iniciativa se extendió para apoyar a todos los estudiantes de la Escuela.
     `,
   }, {
     header: 'Más información',
     content: dedent`
-      Las tutorías académicas ayudarán a cubrir la brecha académica que enfrentan los estudiantes de T+I durante sus primeros dos años de carrera. Las tutorías por parte de ex-alumnos serán una ampliación de un sistema de tutorías voluntarias que se encuentra en desarrollo.
+      GOing ayudará a cubrir la brecha académica que enfrentan los estudiantes durante sus primeros dos años de carrera. Las tutorías por parte de ex-alumnos sería una ampliación de un sistema de tutorías voluntarias que se encuentra en desarrollo.
 
-      En primera instancia, las tutorías comprenderán los ramos de ciencias básicas y fundamentos de la Ingeniería: Cálculo, Álgebra Lineal, Estática y Dinámica, Termodinámica y Programación. Durante el segundo semestre del 2017 se creó un proyecto de alumnos, en conjunto con la Escuela, con el fin de institucionalizar la idea de tutorías académicas voluntarias.
+      En primera instancia, las tutorías comprenderán los ramos de ciencias básicas y fundamentos de la Ingeniería: Cálculo, Álgebra Lineal, Estática y Dinámica, Termodinámica y Programación.
+
+      GOing se creó durante el segundo semestre del 2017 por parte de alumnos en conjunto con la Escuela, con el fin de institucionalizar la idea de tutorías académicas voluntarias.
     `,
   }],
 };

@@ -4,9 +4,9 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Typography from '@material-ui/core/Typography';
 import ModeCard from './ModeCard';
 import donationModes from '../../../lib/donation-modes';
-import teachingImage from '../../../assets/images/teaching.jpg';
-import studyMaterialImage from '../../../assets/images/study-material.jpg';
-import monetaryImage from '../../../assets/images/monetary.jpg';
+import teachingImage from '../../../assets/images/donation-modes/teaching.jpg';
+import studyMaterialImage from '../../../assets/images/donation-modes/study-material.jpg';
+import monetaryImage from '../../../assets/images/donation-modes/monetary.jpg';
 
 const styles = {
   wrapper: {
@@ -24,10 +24,10 @@ function DonationModes({ onModeClick, classes }) {
       </Typography>
       <div className={classes.wrapper}>
         <ModeCard
-          headline="Tutorías académicas"
+          headline='"GOing": Tutorías académicas'
           subheading="De ex-alumnos para alumnos"
           image={teachingImage}
-          description="Dona tus horas para hacer tutorías académicas a los estudiantes T+I para mejorar su rendimiento académico en los ramos de ciencias básicas."
+          description="Dona tus horas para hacer tutorías académicas a estudiantes para mejorar su rendimiento académico en los ramos de ciencias básicas."
           onClick={() => onModeClick(donationModes.teachingContents)}
         />
         <ModeCard
