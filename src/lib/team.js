@@ -1,7 +1,6 @@
 import amenesesImage from '../assets/images/team/ameneses.jpeg';
 import aquijadaImage from '../assets/images/team/aquijada.jpeg';
 import bmaluendaImage from '../assets/images/team/bmaluenda.jpeg';
-import cgodoyImage from '../assets/images/team/cgodoy.jpeg';
 import gsuazoImage from '../assets/images/team/gsuazo.jpeg';
 import iolivaImage from '../assets/images/team/ioliva.jpeg';
 import ssalataImage from '../assets/images/team/ssalata.jpeg';
@@ -18,10 +17,6 @@ export default [{
   name: 'Benjamín Maluenda',
   studied: 'Civil Mecánica',
   image: bmaluendaImage,
-}, {
-  name: 'Cristian Godoy',
-  studied: 'Industrial Transporte',
-  image: cgodoyImage,
 }, {
   name: 'Gonzalo Suazo',
   studied: 'Industrial Transporte',

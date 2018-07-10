@@ -15,7 +15,7 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'center',
     flexWrap: 'wrap',
-    maxWidth: '825px',
+    maxWidth: '620px',
   },
 });
 
