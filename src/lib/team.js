@@ -11,7 +11,7 @@ export default [{
   image: amenesesImage,
 }, {
   name: 'Alicia Quijada',
-  studied: 'Industrial Hidráulica',
+  studied: 'Civil Hidráulica',
   image: aquijadaImage,
 }, {
   name: 'Benjamín Maluenda',
