@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import withStyles from '@material-ui/core/styles/withStyles';
 import Typography from '@material-ui/core/Typography';
+import introductionContents from '../lib/introduction';
 
 const styles = theme => ({
   subheading: theme.baseFont,
@@ -11,19 +12,19 @@ function Introduction({ classes }) {
   return (
     <Fragment>
       <Typography variant="display1" align="center" gutterBottom>
-        Regalo de Generación 2017
+        {introductionContents.title}
       </Typography>
 
       <Typography variant="headline" align="center" gutterBottom>
-        Una nueva propuesta
+        {introductionContents.subtitle}
       </Typography>
 
-      <Typography variant="subheading" align="justify" className={classes.subheading} gutterBottom>
-        El 2010 egresados de Ingeniería UC fundaron la tradición de que cada generación de{' '}
-        titulados haga un regalo a los estudiantes del programa Talento + Inclusión de la{' '}
-        Escuela. Este año generamos una nueva propuesta: darle la oportunidad a ex-alumnos y {' '}
-        ex-alumnas para participar dando consejos o compartiendo experiencias con estudiantes.
-      </Typography>
+      {introductionContents.description.map((paragraph, index) => (
+        // eslint-disable-next-line react/no-array-index-key
+        <Typography key={index} variant="subheading" align="justify" className={classes.subheading} gutterBottom>
+          {paragraph}
+        </Typography>
+      ))}
     </Fragment>
   );
 }

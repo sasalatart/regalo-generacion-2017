@@ -4,7 +4,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import DonationDialog from './DonationDialog';
-import { mentoringContents } from '../lib/mentoring';
+import { mentoringIntroduction, mentoringContents } from '../lib/mentoring';
 
 const styles = theme => ({
   body: theme.baseFont,
@@ -34,30 +34,23 @@ class Mentoring extends Component {
 
   render() {
     const { classes } = this.props;
-    const commonProps = { gutterBottom: true, align: 'justify' };
 
     return (
       <Fragment>
         <Typography variant="display1" align="center" gutterBottom>
-          Mentorías
+          {mentoringIntroduction.title}
         </Typography>
 
-        <Typography variant="subheading" className={classes.body} {...commonProps}>
-          Si tienes ganas de reunirte con estudiantes a tomarse un café y conversar respecto{' '}
-          a la carrera, experiencias extracurriculares (o personales), o decisiones{' '}
-          profesionales, te invitamos a participar dentro de este proyecto.
-        </Typography>
-
-        <Typography variant="subheading" className={classes.body} {...commonProps}>
-          Creemos que no hay nadie mejor que un ex-alumno para poder orientar en torno a qué{' '}
-          especialidad tomar, cómo enfrentar dificultades personales o académicas, participar{' '}
-          en las selecciones UC, irse de intercambio, o cualquier otra vivencia que haya sido{' '}
-          importante para tí y creas que pueda ser de ayuda para las nuevas generaciones.
-        </Typography>
+        {mentoringIntroduction.description.map((paragraph, index) => (
+          // eslint-disable-next-line react/no-array-index-key
+          <Typography key={index} variant="subheading" align="justify" className={classes.body} gutterBottom>
+            {paragraph}
+          </Typography>
+        ))}
 
         <div className={classes.buttonWrapper}>
           <Button variant="contained" color="primary" onClick={this.handleOpenMoreInfo} className={classes.button}>
-            Más Información
+            {mentoringIntroduction.moreInfo}
           </Button>
         </div>
 
