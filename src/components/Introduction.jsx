@@ -15,10 +15,6 @@ function Introduction({ classes }) {
         {introductionContents.title}
       </Typography>
 
-      <Typography variant="headline" align="center" gutterBottom>
-        {introductionContents.subtitle}
-      </Typography>
-
       {introductionContents.description.map((paragraph, index) => (
         // eslint-disable-next-line react/no-array-index-key
         <Typography key={index} variant="subheading" align="justify" className={classes.subheading} gutterBottom>
