@@ -41,6 +41,10 @@ class Mentoring extends Component {
           {mentoringIntroduction.title}
         </Typography>
 
+        <Typography variant="title" align="center" gutterBottom>
+          {mentoringIntroduction.subtitle}
+        </Typography>
+
         {mentoringIntroduction.description.map((paragraph, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <Typography key={index} variant="subheading" align="justify" className={classes.body} gutterBottom>

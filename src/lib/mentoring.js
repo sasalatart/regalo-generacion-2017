@@ -2,6 +2,7 @@ import dedent from 'dedent';
 
 export const mentoringIntroduction = {
   title: 'Mentorías',
+  subtitle: 'Comparte tus experiencias con un estudiante',
   description: [
     'Cuando tú estabas estudiando, ¿te habría gustado conversar con un ingeniero o ingeniera egresados de la UC para resolver tus dudas? ¡A varios de nosotros sí! Por esto mismo, te invitamos a participar de este proyecto si es que tienes ganas de reunirte con estudiantes a tomarse un café y conversar respecto a la carrera y experiencias extracurriculares, personales o profesionales.',
     'Creemos que un ex-estudiante es la persona perfecta para orientar en torno a qué especialidad tomar, cómo enfrentar dificultades personales o académicas, cómo participar en selecciones deportivas, irse de intercambio, entre tantas otras decisiones. Las experiencias que fueron importantes para ti, también lo son para las nuevas generaciones. Una simple conversación podría ayudar montones a un estudiante igual a como eras tú.',
