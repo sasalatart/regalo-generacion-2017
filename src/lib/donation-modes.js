@@ -34,7 +34,7 @@ const teachingContents = {
     content: dedent`
       GOing ayudará a cubrir la brecha académica que enfrentan los estudiantes durante sus primeros dos años de carrera. Las tutorías por parte de ex-alumnos sería una ampliación de un sistema de tutorías voluntarias que se encuentra en desarrollo.
 
-      En primera instancia, las tutorías comprenderán los ramos de ciencias básicas y fundamentos de la Ingeniería: Cálculo, Álgebra Lineal, Estática y Dinámica, Termodinámica y Programación.
+      En primera instancia, las tutorías comprenderán los ramos de ciencias básicas y fundamentos de la Ingeniería: Cálculo, Álgebra Lineal, Química, Estática y Dinámica, Introducción a la Programación, y Optimización.
 
       GOing se creó durante el segundo semestre del 2017 por parte de alumnos en conjunto con la Escuela, con el fin de institucionalizar la idea de tutorías académicas voluntarias.
     `,
@@ -55,9 +55,9 @@ const studyMateriaContents = {
   expansions: [{
     header: '¿Cómo funciona?',
     content: dedent`
-      * Inscribes los materiales de estudio a donar y tus datos de contacto (email y número de teléfono).
+      1. Inscribes los materiales de estudio a donar y tus datos de contacto (email y número de teléfono).
 
-      * Un encargado se pondrá en contacto para coordinar la recolección. Puedes facilitar la coordinación enviando o trayendo los materiales directamente a la Escuela de Ingeniería.
+      2. Recibirás un email con instrucciones acerca de dónde debes llevar el material dentro de la Escuela de Ingeniería. Si tienes mucho material para donar, y te complica llevarlo, podemos conversar alguna solución :)
     `,
   }, {
     header: '¿Por qué es importante?',
@@ -121,7 +121,7 @@ const monetaryContents = {
 
       # Otros
 
-      * El donante recibirá dos reportes al email con un detalle en lo que se ha utilizado el dinero, transparentando los conceptos y montos:
+      El donante recibirá dos reportes al email con un detalle en lo que se ha utilizado el dinero, transparentando los conceptos y montos:
 
         * El primer reporte se entregará al finalizar el primer semestre.
 
@@ -153,9 +153,9 @@ const monetaryContents = {
 
       ### Fondo de Ayuda Talento e Inclusión:
 
-      * El 43% de los alumnos encuestados del programa Talento e Inclusión ha presentado alguna vez durante su estadía en la universidad un problema relacionado a la salud.
+      * El 43% de los alumnos encuestados del programa Talento e Inclusión ha presentado alguna vez durante su estadía en la Universidad un problema relacionado a la salud.
 
-      * El 68% de los novatos 2017 de región encuestados reportaron necesidades en residencia durante este año.
+      * El 68% de los novatos 2017 de región encuestados reportaron necesidades en residencia durante ese año.
 
       * Nos gustaría alcanzar una primera meta de $2.500.000 para este fondo.
 
@@ -171,7 +171,7 @@ const monetaryContents = {
 
       ### Donación única
 
-      Mediante transferencia bancaria o WebPay (Tarjeta de crédito o cuenta corriente)
+      Mediante transferencia bancaria o WebPay (Tarjeta de crédito o cuenta corriente).
 
       ### Montos sugeridos
 
@@ -179,11 +179,11 @@ const monetaryContents = {
 
       #### Becas de Manutención
 
-      * $7.500 – Un cuarto de Beca
+      * $7.500 – Un cuarto de beca
 
-      * $15.000 – Media Beca
+      * $15.000 – Media beca
 
-      * $30.000 – Beca Completa
+      * $30.000 – Beca completa
 
       * Otro
 
