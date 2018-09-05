@@ -27,7 +27,7 @@ function AboutUs({ classes }) {
       </Typography>
 
       <Typography variant="subheading" align="justify" className={classes.body} gutterBottom>
-        Somos graduados del 2017 (¡al igual que tu!), y decidimos organizar este regalo en{' '}
+        Somos graduados del 2017 (¡al igual que tú!), y decidimos organizar este regalo en{' '}
         conjunto con la Escuela. Notamos que podíamos aportar con algo más que dinero.{' '}
         Queremos generar un cambio cultural en la relación de los ex-alumnos con la Escuela, y{' '}
         apoyar a los actuales alumnos con nuestras propias experiencias de cuando estuvimos{' '}

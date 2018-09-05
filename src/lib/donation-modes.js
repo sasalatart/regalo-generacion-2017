@@ -14,11 +14,11 @@ const teachingContents = {
   expansions: [{
     header: '¿Cómo funciona?',
     content: dedent`
-      * Te inscribes y declaras los ramos de ciencias básicas en los que eres competente y las horas que estás dispuesto a donar el segundo semestre del 2018.
+      * Te inscribes y declaras los ramos de ciencias básicas en los que eres competente y las horas que estás dispuesto a donar el 2º Semestre del 2018 o 1º Semestre del 2019.
 
       * Durante el segundo semestre del 2018 deberás especificar tu disponibilidad horaria calendarizada, y los estudiantes se inscribirán en una lista de espera según la disponibilidad horaria de todos los tutores.
 
-      * Con esta información, se hará un “match” para coordinar la reunión, poniendo en contacto al estudiante con el ex-alumno o ex-alumna.
+      * Con esta información, se hará un "match" para coordinar la reunión, poniendo en contacto al estudiante con el tutor Ingeniero.
     `,
   }, {
     header: '¿Por qué es importante?',
@@ -129,7 +129,13 @@ const monetaryContents = {
 
       Cualquier duda sobre los destinos del dinero la puede hacer directamente por email a **becas@ing.puc.cl**.
 
-      Si quieres realizar donaciones recurrentes con mandatos PAC o PAT, solicita el mandato a **becas@ing.puc.cl**.
+      Si quieres realizar donaciones recurrentes con mandatos selecciona de entre los siguientes links:
+
+        * [PAC](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pac-becas/) (pago automático cargo a cuenta corriente)
+
+        * [PAT](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pat-becas/) (pago automático cargo a tarjeta crédito)
+
+      Más información en becas@ing.puc.cl
     `,
   }, {
     header: '¿Por qué es importante?',
@@ -163,15 +169,15 @@ const monetaryContents = {
 
       ### Donación recurrente (Requieren rellenar un mandato. ¡Es muy sencillo!)
 
-      * PAC – Pago Automático con Cuenta Corriente
+      * [PAC](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pac-becas/) (pago automático cargo a cuenta corriente)
 
-      * PAT – Pago Automático con Tarjeta de Crédito
+      * [PAT](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pat-becas/) (pago automático cargo a tarjeta crédito)
 
-      * Interesados mandato a firmar a becas@ing.puc.cl
+      Más información en becas@ing.puc.cl
 
       ### Donación única
 
-      Mediante transferencia bancaria o WebPay (Tarjeta de crédito o cuenta corriente).
+      Mediante transferencia bancaria o [WebPay](https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=72395) (tarjeta de crédito o cuenta corriente).
 
       ### Montos sugeridos
 
@@ -200,19 +206,15 @@ const monetaryContents = {
   }, {
     header: 'Preguntas frecuentes',
     content: dedent`
-      1. ¿Cómo pago por WebPay si entro directamente desde su página? (https://www.webpay.cl/)
-
-        Es bastante sencillo. Solo selecciona en el campo “Rubros” la opción “Universidades” y a continuación, en “Establecimientos” eliges “PUC FACULTAD INGENIERÍA”
-
-      2. ¿Cómo sé que recibieron mi pago?
+      1. ¿Cómo sé que recibieron mi pago?
 
         Tanto la Transferencia Bancaria, como WebPay generan un comprobante de pago que envían a tu correo. Sin embargo, te enviaremos un correo de confirmación de pago de donación en un plazo máximo de 48 hrs. hábiles desde la recepción del pago. De todas formas te sugerimos guardar los comprobantes de pago en tu correo.
 
-      3. Tengo muchas dudas de WebPay, ¿dónde puedo recurrir?
+      2. Tengo muchas dudas de WebPay, ¿dónde puedo recurrir?
 
         Puedes ingresar directamente a la sección de [preguntas frecuentes del sistema](https://www.webpay.cl/portalpagodirecto/pages/faq.jsf) o escribirnos un correo con tus dudas a becas@ing.puc.cl.
 
-      4. En el mandato PAT me preguntan por “Fecha Otorgamiento Instrucción de Cargo”. ¿Qué es eso?
+      3. En el mandato PAT me preguntan por “Fecha Otorgamiento Instrucción de Cargo”. ¿Qué es eso?
 
         Simplemente es la fecha en que rellenas y firmas el PAT.
     `,

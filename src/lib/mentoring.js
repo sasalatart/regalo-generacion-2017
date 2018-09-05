@@ -4,7 +4,7 @@ export const mentoringIntroduction = {
   title: 'Mentorías',
   subtitle: 'Comparte tus experiencias con un estudiante',
   description: [
-    'Cuando tú estabas estudiando, ¿te habría gustado conversar con un ingeniero o ingeniera egresados de la UC para resolver tus dudas? ¡A varios de nosotros sí! Por esto mismo, te invitamos a participar de este proyecto si es que tienes ganas de reunirte con estudiantes a tomarse un café y conversar respecto a la carrera y experiencias extracurriculares, personales o profesionales.',
+    'Cuando tú estabas estudiando, ¿te habría gustado conversar con un ingeniero o ingeniera egresados de la UC para resolver tus dudas? ¡A varios de nosotros sí! Por esto mismo, te invitamos a participar de este proyecto si es que tienes ganas de reunirte con estudiantes a tomarse un café y conversar respecto a la carrera y experiencias extracurriculares o profesionales.',
     'Creemos que un ex-estudiante es la persona perfecta para orientar en torno a qué especialidad tomar, cómo enfrentar dificultades personales o académicas, cómo participar en selecciones deportivas, irse de intercambio, entre tantas otras decisiones. Las experiencias que fueron importantes para ti, también lo son para las nuevas generaciones. Una simple conversación podría ayudar montones a un estudiante igual a como eras tú.',
   ],
   moreInfo: 'Más Información',
@@ -26,45 +26,42 @@ export const mentoringContents = {
 
       2. El formulario contendrá preguntas (cortas) acerca de tu motivación por participar en este proyecto, los temas que te interesan conversar, y una aproximación de en qué momento de este año (o del que viene) podrías participar en esto.
 
-      3. Los estudiantes podrán ver tu perfil en una página web, para que podamos hacer un *match*.
-
-      4. Te reúnes con ellos :)
+      3. Quedas inscrito/a en el plan piloto de Mentorías Exalumnos para a iniciar el 1º Semestre 2019.
     `,
   }, {
     header: '¿De qué tipo de temas puedo hacer mentorías?',
     content: dedent`
-      ¡Cualquiera! Lo importante es que sientas que puedes ayudar a los estudiantes con ese tema, y te sientas cómodo(a) hablando al respecto.
+      Cualquiera en que sientas que puedes apoyar con tu experiencia como estudiante o profesional. A continuación algunos ejemplos:
 
-      A continuación, algunos ejemplos:
+      * Realizar un postgrado
 
-      * Cómo estructurar la formación académica para formar un perfil interesante.
+      * Realizar un intercambio
 
-      * Realizar un posgrado.
+      * Cómo estructurar la formación académica curricular
 
-      * Cómo lidiar con problemas personales mientras se es estudiante.
+      * Crear redes de contacto
 
-      * Postular a intercambio.
+      * Equilibrio entre trabajo y vida personal
 
-      * Vivir en otra ciudad una vez terminada la carrera.
-
-      * Orientación sobre opciones laborales.
-
-      * Tu tema
+      * Emprender
     `,
   }, {
     header: 'Cosas que debes saber antes de inscribirte',
     content: dedent`
-      * Esta **no es una plataforma de reclutamiento**, por lo que se prohíbe registrarse y concretar reuniones de mentoría con el fin de reclutar estudiantes para la propia empresa del ex-estudiante, o para cualquier otra. No obstante, sí se busca que el mentor ofrezca guías, consejos y comparta experiencias para que el estudiante pueda enfrentar mejor sus procesos de búsqueda de práctica y/o primer trabajo. Así mismo, se espera que los estudiantes no utilicen la plataforma para solicitar prácticas o empleo.
+      * El programa Mentoría Exalumno tiene como objetivo mostrar el rol del Ingeniero y acercar el mundo laboral en el que éste se desenvuelve a los alumnos de la Escuela de Ingeniería de la Pontificia Universidad Católica de Chile. Además, busca contribuir en el desarrollo personal del alumno, a través de la construcción de una relación con un mentor ingeniero que lo apoye en áreas de desarrollo profesional y académico.
 
-      * Una vez que se hace el calce entre un estudiante y un mentor, se les enviará un correo electrónico para que puedan coordinar el primer encuentro. **Es deber del estudiante tomar la iniciativa para coordinar el primer encuentro**. Para esto debe enviar un email al mentor dentro de los primeros 10 días desde el calce.
+      * El programa tiene como duración un semestre académico y deben tener como mínimo dos encuentros entre mentor-alumno durante dicho semestre o el equivalente a 2-4 hrs. Los encuentros se deben realizar en un espacio público definido de común acuerdo entre las partes, como por ejemplo, en la empresa donde trabaja el mentor, cafeterías, entre otros.
 
-      * Creemos que un encuentro tipo tiene una duración de 45 min a una hora. Sin embargo, esto dependerá de ustedes y de la conversación que tengan.
+      * Ambas partes, tanto mentor como alumno, aceptan participar y tomar el compromiso que involucra el Programa de Mentoría Ingeniería UC.
 
-      * Si el ex-estudiante o el estudiante tiene un imprevisto, pueden acordar un nuevo encuentro, siempre que se notifique durante el día anterior o el mismo día. Si un estudiante o ex-estudiante cancela dos veces un mismo encuentro, entonces el equipo del programa evaluará su continuidad (entendiendo cancelar como dar aviso de inasistencia el día anterior o el mismo día del encuentro). Si un ex-estudiante o estudiante no asiste a un encuentro sin avisar ni dar explicación a la contraparte, será retirado del programa.
+      * En el caso del mentor, éste se compromete a:
+        * Realizar el esfuerzo de llevar a cabo dos encuentros de manera individual con su(s) alumno(s).
+        * Enviar a su(s) alumno(s) el primer email de contacto una vez realizada la asignación.
+        * Resolver las dudas y plantear temas en relación a los temas de interés que eligió en su ficha y/u otros temas que considere relevantes.
+        * Registrar cada encuentro en la plataforma (disponible 1º Semestre 2019) una vez concretado.
+        * Al finalizar las mentorías, debe completar la "Encuesta Final" para evaluar el programa.
 
-      * Tu nombre, motivaciones y tema a conversar aparecerán en una página web a la que tendrán acceso los estudiantes para explorar los distintos perfiles de personas con quienes pueden pedir mentorías. Esta información estará en la página por seis meses aproximadamente.
-
-      * Las reuniones deben realizarse en un lugar público, como un café.
+      * El no cumplimiento de los puntos tratados con anterioridad no conlleva sanciones de por medio. Sin embargo, existe una consecuencia ética, debido a que la oportunidad que le es entregada a los alumnos, debe ser aprovechada oportunamente por ellos.
     `,
   }],
 };
