@@ -24,7 +24,7 @@ export const mentoringContents = {
     content: dedent`
       1. Te inscribes rellenando un formulario.
 
-      2. El formulario contendrá preguntas (cortas) acerca de tu motivación por participar en este proyecto, los temas que te interesan conversar, y una aproximación de en qué momento de este año (o del que viene) podrías participar en esto.
+      2. El formulario contendrá preguntas (cortas) acerca de tu motivación por participar en este proyecto y los temas que te interesan conversar.
 
       3. Quedas inscrito/a en el plan piloto de Mentorías Exalumnos para a iniciar el 1º Semestre 2019.
     `,
