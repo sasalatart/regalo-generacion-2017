@@ -32,7 +32,7 @@ const teachingContents = {
   }, {
     header: 'Más información',
     content: dedent`
-      GOing ayudará a cubrir la brecha académica que enfrentan los estudiantes durante sus primeros dos años de carrera. Las tutorías por parte de ex-alumnos sería una ampliación de un sistema de tutorías voluntarias que se encuentra en desarrollo.
+      GOing ayudará a cubrir la brecha académica que enfrentan los estudiantes durante sus primeros dos años de carrera. Las tutorías por parte de ex-alumnos serían una ampliación de un sistema de tutorías voluntarias que se encuentra en desarrollo.
 
       En primera instancia, las tutorías comprenderán los ramos de ciencias básicas y fundamentos de la Ingeniería: Cálculo, Álgebra Lineal, Química, Estática y Dinámica, Introducción a la Programación, y Optimización.
 
