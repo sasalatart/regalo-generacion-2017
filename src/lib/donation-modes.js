@@ -72,9 +72,9 @@ const studyMateriaContents = {
 const monetaryContents = {
   title: 'APORTE MONETARIO',
   description: dedent`
-    Tu aporte será destinado a Fondos de Manutención con el fin de que no se vean obligados(as) a trabajar -y estudiar paralelamente- para cubrir estas necesidades, y así no verse afectados académicamente.
+    Tu aporte será destinado a Fondos de Manutención con el fin de que estudiantes de T+I no se vean obligados(as) a trabajar -y estudiar paralelamente- para cubrir estas necesidades, y así no verse afectados académicamente.
 
-    > De todos los encuestados durante el 2017 [54% de los estudiantes de T+I], el 52% de ellos no cuenta con recursos económicos suficientes para cubrir al menos una necesidad básica (alimentación, transporte, residencia y salud), y el 35% ha trabajado para cubrir alguna de éstas
+    > De todos los encuestados durante el 2017 [54% de los estudiantes de T+I], el 52% de ellos no cuenta con recursos económicos suficientes para cubrir al menos una necesidad básica (alimentación, transporte, residencia y salud), y el 35% ha trabajado para cubrir alguna de éstas.
   `,
   callToAction: {
     title: 'Donar recursos',
@@ -83,21 +83,15 @@ const monetaryContents = {
   expansions: [{
     header: '¿Cómo donar?',
     content: dedent`
-      Elige un fondo a cuál donar:
+      ### Pago Webpay
 
-      # Pago Webpay
+      1. Ingresa a este [link](https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=72395) y presiona pagar a un lado de "Programa Talento más Inclusión"
 
-      1. Ingresa a este [link](https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=72395) y presiona pagar a un lado de “Programa Talento más Inclusión”
-
-      2. Ingresa tus datos y en identificación del pago indica alguno de los siguientes fondos:
-
-        * Regalo Generación 2017 – Fondo Manutención
-
-        * Regalo Generación 2017 – Fondo Ayuda y Campamento
+      2. Ingresa tus datos y en identificación del pago escribe "Regalo Generación 2017 – Fondo Manutención"
 
       3. Presiona aceptar, selecciona tarjeta de crédito o cuenta corriente y sigue las instrucciones de tu banco.
 
-      # Transferencia Bancaria
+      ### Transferencia bancaria
 
       1. Ingresa a la página web o aplicación de tu banco
 
@@ -117,17 +111,11 @@ const monetaryContents = {
 
         * **Correo**: becas@ing.puc.cl
 
-        * **Mensaje**: "Regalo Generación 2017 – Fondo Manutención" ó "Regalo Generación 2017 – Fondo Ayuda y Campamento" (¡tú decides a qué fondo va!)
+        * **Mensaje**: "Regalo Generación 2017 – Fondo Manutención"
 
-      # Otros
+      ### Otros
 
-      El donante recibirá dos reportes al email con un detalle en lo que se ha utilizado el dinero, transparentando los conceptos y montos:
-
-        * El primer reporte se entregará al finalizar el primer semestre.
-
-        * El segundo reporte se entregará al finalizar el segundo semestre.
-
-      Cualquier duda sobre los destinos del dinero la puede hacer directamente por email a **becas@ing.puc.cl**.
+      Cualquier duda sobre los destinos del dinero la puedes hacer directamente por email a [becas@ing.puc.cl](mailto:becas@ing.puc.cl).
 
       Si quieres realizar donaciones recurrentes con mandatos selecciona de entre los siguientes links:
 
@@ -135,55 +123,41 @@ const monetaryContents = {
 
         * [PAT](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pat-becas/) (pago automático cargo a tarjeta crédito)
 
-      Más información en becas@ing.puc.cl
+      Más información en [becas@ing.puc.cl](mailto:becas@ing.puc.cl)
     `,
   }, {
     header: '¿Por qué es importante?',
     content: dedent`
-      Una encuesta contestada por el 54% de los alumnos T+I (311 de 581)  arrojó que más de la mitad de los encuestados ha presentado problemas para cubrir necesidades básicas y más de un tercio ha tenido que trabajar para compensarlas. Además, algunos alumnos incurren en gastos importantes ante situaciones de emergencias de salud. Por eso, sería un aporte contar con un fondo especialmente reservado para ayuda de estudiantes.
+      Una encuesta contestada por el 54% de los alumnos T+I (311 de 581) arrojó que más de la mitad de los encuestados ha presentado problemas para cubrir necesidades básicas y más de un tercio ha tenido que trabajar para compensarlas. Además, algunos alumnos incurren en gastos importantes ante situaciones de emergencias de salud. Por eso, sería un aporte contar con un fondo especialmente reservado para ayuda de estudiantes.
 
-      Además de tener que cubrir estas necesidades, también incurren en gastos importantes ante situaciones de emergencias de salud. Por eso, el Fondo de ayuda Talento e Inclusión es un gran aporte, principalmente para que los estudiantes cuenten con un apoyo en caso de presentar problemas inesperados o emergencias.
+      Además de tener que cubrir estas necesidades, también incurren en gastos importantes ante situaciones de emergencias de salud. Por eso, este fondo es un gran aporte, principalmente para que los estudiantes cuenten con un apoyo en caso de presentar problemas inesperados o emergencias.
     `,
   }, {
     header: 'Más información',
     content: dedent`
-      # Tipos de fondos
+      ### Becas de manutención:
 
-      ### Becas de Manutención:
-
-      * Establecimos una beca mensual para un alumno de $30.000 para cubrir sus necesidades de mantención.
+      * Establecimos una beca mensual para un alumno de $30.000 para cubrir sus necesidades de manutención.
 
       * El 79% de los encuestados que reportaron necesidades en alimentación y transporte se verían satisfechos con este monto.
 
       * Nos gustaría lograr al menos 5 becas anuales para el próximo año (2019). En 10 meses, esto es $1.500.000.
 
-      ### Fondo de Ayuda Talento e Inclusión:
+      ### Tipos de donación
 
-      * El 43% de los alumnos encuestados del programa Talento e Inclusión ha presentado alguna vez durante su estadía en la Universidad un problema relacionado a la salud.
+      * **Donación única**: Mediante transferencia bancaria o [Webpay](https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=72395) (tarjeta de crédito o cuenta corriente).
 
-      * El 68% de los novatos 2017 de región encuestados reportaron necesidades en residencia durante ese año.
+      * **Donación recurrente (requiere rellenar un mandato)**:
 
-      * Nos gustaría alcanzar una primera meta de $2.500.000 para este fondo.
+        * [PAC](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pac-becas/) (pago automático cargo a cuenta corriente)
 
-      # Tipos de donación
+        * [PAT](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pat-becas/) (pago automático cargo a tarjeta crédito)
 
-      ### Donación recurrente (Requieren rellenar un mandato. ¡Es muy sencillo!)
-
-      * [PAC](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pac-becas/) (pago automático cargo a cuenta corriente)
-
-      * [PAT](https://www.ing.uc.cl/retribuye/becas/como-donar-becas/pat-becas/) (pago automático cargo a tarjeta crédito)
-
-      Más información en becas@ing.puc.cl
-
-      ### Donación única
-
-      Mediante transferencia bancaria o [WebPay](https://www.webpay.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=72395) (tarjeta de crédito o cuenta corriente).
+      Más información en [becas@ing.puc.cl](mailto:becas@ing.puc.cl)
 
       ### Montos sugeridos
 
-      Te sugerimos los siguientes montos a donar para cada fondo. Sin embargo, puedes donar lo que quieras y puedas. Le estarás cambiando la vida a un estudiante del programa.
-
-      #### Becas de Manutención
+      Te sugerimos los siguientes montos a donar. Sin embargo, puedes donar lo que quieras y puedas. Le estarás cambiando la vida a un estudiante del programa.
 
       * $7.500 – Un cuarto de beca
 
@@ -192,29 +166,19 @@ const monetaryContents = {
       * $30.000 – Beca completa
 
       * Otro
-
-      #### Fondo de Ayuda Talento e Inclusión
-
-      * $10.000 – Si somos 250 compañeros donando esto alcanzaremos la 1ª meta
-
-      * $20.000 – Si somos 125 compañeros donando esto alcanzaremos la 1ª meta
-
-      * $50.000 – Si somos 50 compañeros donando esto alcanzaremos la 1ª meta
-
-      * Otro
     `,
   }, {
     header: 'Preguntas frecuentes',
     content: dedent`
-      1. ¿Cómo sé que recibieron mi pago?
+      1. **¿Cómo sé que recibieron mi pago?**
 
-        Tanto la Transferencia Bancaria, como WebPay generan un comprobante de pago que envían a tu correo. Sin embargo, te enviaremos un correo de confirmación de pago de donación en un plazo máximo de 48 hrs. hábiles desde la recepción del pago. De todas formas te sugerimos guardar los comprobantes de pago en tu correo.
+        Tanto la transferencia bancaria como Webpay generan un comprobante de pago que envían a tu correo.
 
-      2. Tengo muchas dudas de WebPay, ¿dónde puedo recurrir?
+      2. **Tengo muchas dudas de Webpay, ¿dónde puedo recurrir?**
 
-        Puedes ingresar directamente a la sección de [preguntas frecuentes del sistema](https://www.webpay.cl/portalpagodirecto/pages/faq.jsf) o escribirnos un correo con tus dudas a becas@ing.puc.cl.
+        Puedes ingresar directamente a la sección de [preguntas frecuentes del sistema](https://www.webpay.cl/portalpagodirecto/pages/faq.jsf) o escribirnos un correo con tus dudas a [becas@ing.puc.cl](mailto:becas@ing.puc.cl).
 
-      3. En el mandato PAT me preguntan por “Fecha Otorgamiento Instrucción de Cargo”. ¿Qué es eso?
+      3. **En el mandato PAT me preguntan por "Fecha Otorgamiento Instrucción de Cargo". ¿Qué es eso?**
 
         Simplemente es la fecha en que rellenas y firmas el PAT.
     `,
