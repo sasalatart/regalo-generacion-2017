@@ -135,9 +135,9 @@ const monetaryContents = {
   }, {
     header: 'Más información',
     content: dedent`
-      ### Becas de manutención:
+      ### Becas de mantención:
 
-      * Establecimos una beca mensual para un alumno de $30.000 para cubrir sus necesidades de manutención.
+      * Establecimos una beca mensual para un alumno de $30.000 para cubrir sus necesidades de mantención.
 
       * El 79% de los encuestados que reportaron necesidades en alimentación y transporte se verían satisfechos con este monto.
 

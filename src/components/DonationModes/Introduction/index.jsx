@@ -39,7 +39,7 @@ function DonationModes({ onModeClick, classes }) {
         />
         <ModeCard
           headline="Aporte monetario"
-          subheading="Fondos de manutención"
+          subheading="Fondos de mantención"
           image={monetaryImage}
           description="Dona dinero para evitar que algunos estudiantes de T+I disminuyan su rendimiento académico al verse obligados(as) a trabajar para cubrir sus necesidades básicas."
           onClick={() => onModeClick(donationModes.monetaryContents)}
